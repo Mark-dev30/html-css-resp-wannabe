@@ -1,0 +1,22 @@
+/* - tablet: dai 768px in giù
+- mobile: dai 480px in giù */
+
+
+
+@media screen and (max-width: 480px){
+
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .lessons .col, .steps .col, .why-us .col {
+        width: 100%;
+    }
+
+}
