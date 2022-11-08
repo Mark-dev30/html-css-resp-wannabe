@@ -1,22 +1,46 @@
 /* - tablet: dai 768px in giù
 - mobile: dai 480px in giù */
+@media screen and (max-width: 1140px){
+    .container{
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}
 
 
 @media screen and (max-width: 480px){
 
-    .container{
-        width: 100%;
-    }
-
     .row{
         align-items: center;
-        flex-direction: column;
+        flex-wrap: wrap;
 
     }
 
     .lessons .col, .steps .col, .why-us .col {
         width: 100%;
     }
+    
+    .why-us{
+        background-color: #222222;
+     }
+     .why-us h2{
+        padding-top: 40px;
+     }
+
+     .why-us, .steps{
+        margin: 0;
+     }
+
+    
+
+     .col:nth-child(2), .col:nth-child(3)  {
+        margin-top: 40px;
+    }
 
 }
+
