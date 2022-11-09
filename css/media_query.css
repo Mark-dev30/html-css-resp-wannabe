@@ -1,10 +1,11 @@
-/* - tablet: dai 768px in giù
-- mobile: dai 480px in giù */
+
+/* bonus */
 @media screen and (max-width: 1140px){
     .container{
         width: 100%;
     }
 }
+
 
 @media screen and (max-width: 768px){
     .container{
@@ -36,11 +37,14 @@
         margin: 0;
      }
 
+     .lessons p, .steps p:nth-of-type(2) {
+        padding-bottom: 40px;
+     }
     
 
-     .col:nth-child(2), .col:nth-child(3)  {
+    /*  .col:nth-child(2), .col:nth-child(3)  {
         margin-top: 40px;
-    }
+    } */
 
 }
 
